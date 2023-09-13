@@ -1,0 +1,60 @@
+.homecomp{
+    margin: 1rem;
+}
+.firstinnercomp{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    /* padding: 1rem; */
+}
+.firstinnercomp>div{
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* margin: 1rem; */
+    padding: 0.6rem;
+}
+.firstinnercomp>div>img{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+.firstinnercomp>div>div>h4{
+    font-size: 1.2rem;
+}
+.firstinnercomp>div>div>p{
+    font-size: 0.8rem;
+}
+.secondinnercomp{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+.secfirst{
+display: flex;
+/* flex-direction: row; */
+justify-content: space-between !important;
+margin-top: 2rem;
+padding: 0;
+}
+.secfirst>div>h3{
+    font-size: large;
+    font-weight: 300;
+}
+.secfirst>div>a{
+    color: #901E75;
+    font-size: 1rem;
+    margin-right: 0;
+}
+.sectable>table{
+    width: 100%;
+    text-align: center;
+}
+.sectable>table>thead>tr>th{
+    padding: 1rem;
+}
